@@ -11,7 +11,7 @@
         "url": "https://github.com/georgio/proverif-vscode/issues",
         "email": "me@georgio.xyz"
     },
-    "icon": "images/icon.png",
+    "icon": "img/icon.png",
     "license": "GPL 3.0",
     "publisher": "georgio",
     "engines": {
