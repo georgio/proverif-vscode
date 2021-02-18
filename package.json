@@ -1,0 +1,35 @@
+{
+    "name": "proverif-vscode",
+    "displayName": "ProVerif Syntax Highlighting",
+    "description": "Proverif Syntax Highlighting",
+    "version": "1.0.0",
+    "publisher": "georgio",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "pv",
+                "aliases": [
+                    "ProVerif",
+                    "pv"
+                ],
+                "extensions": [
+                    ".pv"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pv",
+                "scopeName": "source.proverif",
+                "path": "./syntaxes/pv.tmLanguage.json"
+            }
+        ]
+    }
+}
