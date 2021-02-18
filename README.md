@@ -1,7 +1,8 @@
 # ProVerif Syntax Highlighting for VS Code
 
+![ProVerif](img/proverif.png)
+
 Syntax highlighting for ProVerif files
-<img src="https://raw.githubusercontent.com/georgio/proverif-vscode/main/img/proverif.png" height="200"/>
 
 ## 1.0.0
 

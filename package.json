@@ -1,15 +1,23 @@
 {
     "name": "proverif-vscode",
-    "displayName": "ProVerif Syntax Highlighting",
-    "description": "Proverif Syntax Highlighting",
+    "displayName": "ProVerif",
+    "description": "ProVerif Syntax Highlighting",
     "version": "1.0.0",
     "repository": {
+        "type": "git",
         "url": "https://github.com/georgio/proverif-vscode"
     },
+    "bugs": {
+        "url": "https://github.com/georgio/proverif-vscode/issues",
+        "email": "me@georgio.xyz"
+    },
+    "icon": "images/icon.png",
+    "license": "GPL 3.0",
     "publisher": "georgio",
     "engines": {
         "vscode": "^1.53.0"
     },
+    "homepage": "https://github.com/georgio/proverif-vscode",
     "categories": [
         "Programming Languages"
     ],
