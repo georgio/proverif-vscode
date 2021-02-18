@@ -3,6 +3,9 @@
     "displayName": "ProVerif Syntax Highlighting",
     "description": "Proverif Syntax Highlighting",
     "version": "1.0.0",
+    "repository": {
+        "url": "https://github.com/georgio/proverif-vscode"
+    },
     "publisher": "georgio",
     "engines": {
         "vscode": "^1.53.0"
