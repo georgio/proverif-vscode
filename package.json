@@ -31,7 +31,8 @@
                 ],
                 "extensions": [
                     ".pv",
-                    ".pvl"
+                    ".pvl",
+                    ".pcv"
                 ],
                 "configuration": "./language-configuration.json"
             }
