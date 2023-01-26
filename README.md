@@ -4,6 +4,10 @@
 
 Syntax highlighting for ProVerif files
 
+## 1.1.0
+
+Updated Grammar by @VincentCheval
+
 ## 1.0.0
 
 Initial release
