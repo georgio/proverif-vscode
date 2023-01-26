@@ -1,6 +1,6 @@
 {
 	"fileTypes": [
-		"pv", "pvl"
+		"pv", "pvl", "pcv"
 	],
 	"name": "ProVerif",
 	"scopeName": "source.proverif",
@@ -99,7 +99,7 @@
       },
       "endCaptures": { "1": { "name": "keyword.proverif" } },
       "patterns": [
-        { "include": "#comments"},
+        { "include": "#comments" },
         { "include": "#boolean"},
         { "include": "#nat"}
       ]
@@ -108,7 +108,10 @@
       "//comment": "Declaration of cryptoverif lines",
       "name": "string markup.deleted",
       "begin" : "(proba|proof|letproba|implementation)(?!\\w)",
-      "end": "\\."
+      "end": "\\.",
+      "patterns": [
+        { "include": "#comments"}
+      ]
     },
     {
       "//comment": "Declaration of expand",
@@ -149,12 +152,15 @@
     },
     {
       "//comment": "Declaration of type",
-      "match": "(type)\\s+([a-zA-Z][a-zA-Z'0-9_]*)\\s*(.)",
-      "captures": {
-        "1": { "name": "keyword.control.proverif" },
-        "2": { "name": "entity.name.type.proverif" },
-        "3": { "name": "keyword.proverif" }
-      }
+      "begin": "(type)(?!\\w)",
+      "end": "(\\.)",
+      "beginCaptures": { "1": { "name": "keyword.control.proverif" } },
+      "endCaptures": { "1": { "name": "keyword.proverif" } },
+      "patterns": [
+        { "include": "#comments"},
+        { "include": "#options"},
+        { "include": "#type_ident" }
+      ]
     },
     {
       "//comment": "Declaration of clauses, elimtrue",
@@ -216,7 +222,7 @@
     },
     {
       "//comment": "Declaration of queries,not,nounif,lemmas,restrictions,axioms,noninterf,weaksecret",
-      "begin": "(?<!\\w)(nounif|select|noselect|query|axiom|lemma|restriction|not)(?!\\w)",
+      "begin": "(?<!\\w)(nounif|select|noselect|query|axiom|lemma|restriction|not|weaksecret)(?!\\w)",
       "end": "(\\.)",
       "beginCaptures": { "1": { "name": "keyword.control.proverif" } },
       "endCaptures": { "1": { "name": "keyword.proverif" } },
