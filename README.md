@@ -18,6 +18,8 @@ Initial release
 
 [ProVerif Grammar](https://github.com/VincentCheval/language-proverif/blob/master/grammars/proverif.cson): [Vincent Cheval](https://prosecco.gforge.inria.fr/personal/vcheval/)
 
+ProVerif Logo by [Charlie Jacome](https://charlie.jacomme.fr)
+
 ProVerif mascot from [Verifpal](https://verifpal.com): [Nadim Kobeissi](https://nadim.computer/)
 
 ## License
