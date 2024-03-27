@@ -32,7 +32,10 @@
                 "extensions": [
                     ".pv",
                     ".pvl",
-                    ".pcv"
+                    ".pcv",
+                    ".horn",
+                    ".horntype",
+                    ".pi"
                 ],
                 "configuration": "./language-configuration.json"
             }
@@ -44,5 +47,8 @@
                 "path": "./syntaxes/pv.tmLanguage.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^2.15.0"
     }
 }

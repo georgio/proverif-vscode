@@ -1,6 +1,6 @@
 {
 	"fileTypes": [
-		"pv", "pvl", "pcv"
+		"pv", "pvl", "pcv", "horn", "pi", "horntype"
 	],
 	"name": "ProVerif",
 	"scopeName": "source.proverif",
