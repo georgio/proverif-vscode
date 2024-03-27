@@ -2,7 +2,7 @@
     "name": "proverif-vscode",
     "displayName": "ProVerif",
     "description": "ProVerif Syntax Highlighting",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/georgio/proverif-vscode"
