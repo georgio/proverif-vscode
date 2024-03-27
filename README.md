@@ -4,6 +4,11 @@
 
 Syntax highlighting for ProVerif files
 
+## 1.1.1
+
+Support for `.horn`, `.pi`, `.horntype` files.
+New logo.
+
 ## 1.1.0
 
 Updated Grammar by @VincentCheval
