@@ -1,5 +1,7 @@
 # ProVerif Syntax Highlighting for VS Code
 
+This extension is deprecated in favor of https://marketplace.visualstudio.com/items?itemName=ProVerif.vscode-proverif.
+
 ![ProVerif](img/proverif.png)
 
 Syntax highlighting for ProVerif files
